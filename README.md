@@ -1,1 +1,1 @@
-# go-grpc-auth
+GRPC cервис авторизации
