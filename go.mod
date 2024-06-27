@@ -4,8 +4,10 @@ go 1.22.4
 
 require (
 	github.com/fatih/color v1.17.0
+	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/ilyakaznacheev/cleanenv v1.5.0
 	github.com/saver89/go-grpc-auth-protos v0.0.4
+	golang.org/x/crypto v0.21.0
 	golang.org/x/exp v0.0.0-20240613232115-7f521ea00fb8
 	google.golang.org/grpc v1.64.0
 )
