@@ -7,3 +7,10 @@ tasks:
     desc: "start app"
     cmds:
       - go run cmd/sso/main.go --config=./config/local.yaml
+
+  migrate-up:
+    aliases:
+      - m-up
+    desc: "migrate db up"
+    cmds:
+      - go run ./cmd/migrator --storage-path=./storage/sso.db --migrations-path=./migrations

@@ -42,5 +42,5 @@ func main() {
 		panic(err)
 	}
 
-	fmt.Printf("migrated to version %d", m.Version)
+	fmt.Printf("migrated successfully")
 }
